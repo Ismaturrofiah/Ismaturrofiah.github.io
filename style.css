@@ -1,0 +1,177 @@
+html,
+body {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-fixed {
+    z-index: 3;
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    right: 0px;
+    left: 0px;
+}
+
+nav ul a:active {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.title {
+    font-size: 5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+.tell {
+    margin-top: 2%;
+    color: #5cbcf4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 1.5vw;
+}
+
+.section {
+    padding-top: 6%;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.introduce {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: 5%;
+    font-size: 2.5vw;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.con {
+    margin-top: 3%;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.porto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 2%;
+    height: 450px;
+    width: 200px;
+    margin-bottom: 2%;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.repos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+}
+
+.footer {
+    background-color: #5cbcf4;
+    padding: 1%;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .md-screen {
+        /* position: fixed; */
+        left: 0px;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .img {
+        height: auto;
+        width: 100%;
+    }
+    .mr {
+        display: none;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .introduce {
+        width: 75%;
+        height: 75%;
+        margin: 0 auto;
+    }
+}
