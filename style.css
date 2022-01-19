@@ -26,6 +26,7 @@ nav ul a:active {
     position: relative;
     z-index: 1;
     top: 0px;
+    bottom: 0px;
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -148,6 +149,21 @@ hr {
     color: #fff;
 }
 
+@media (max-width: 992px) {
+    .introduce {
+        display: flex;
+        width: 75%;
+        height: 75%;
+        justify-content: center;
+    }
+    .contact {
+        text-align: center;
+    }
+    .contacts {
+        text-align: center;
+    }
+}
+
 @media (max-width: 700px) {
     .md-screen {
         /* position: fixed; */
@@ -156,10 +172,6 @@ hr {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-    }
-    .img {
-        height: auto;
-        width: 100%;
     }
     .mr {
         display: none;
@@ -170,9 +182,11 @@ hr {
         margin: 0 auto;
         margin-top: 5%;
     }
-    .introduce {
-        width: 75%;
-        height: 75%;
-        margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
