@@ -214,3 +214,12 @@ hr {
         font-size: 13px;
     }
 }
+
+@media (max-width: 350px) {
+    .title {
+        font-size: 20px;
+    }
+    .section {
+        padding-top: 15%;
+    }
+}
